@@ -9,7 +9,7 @@
 #sun {
     width: 18vw;
     position: relative;
-    left: 10vw;
+    left: 12vw;
     bottom: 4vw;
     -webkit-animation: spin infinite linear;
     animation: spin infinite linear;
@@ -45,12 +45,13 @@
     height: 1vw;
     position: relative;
     left: 13vw;
+    bottom: 1vw;
 }
 
 #about-star-4 {
     height: 0.75vw;
     position: relative;
-    top: 6vw;
+    top: 5vw;
     left: 22vw;
 }
 

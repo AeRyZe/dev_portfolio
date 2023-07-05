@@ -1,0 +1,86 @@
+.banner-container {
+    height: 40vw;
+    background-color: rgb(20, 25, 140);
+    display: flex;
+    align-items: center;
+    padding: 17vh 8vw 6vh 8vw;
+}
+
+h1 {
+    width: 55%;
+    font-size: 4vw;
+    color: white;
+}
+
+.banner-ui {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-star-1 {
+    position: relative;
+}
+
+#banner-star-2 {
+    position: relative;
+}
+
+#banner-star-3 {
+    position: relative;
+}
+
+#banner-star-4 {
+    position: relative;
+}
+
+#banner-star-5 {
+    position: relative;
+}
+
+#banner-star-6 {
+    position: relative;
+}
+
+#banner-star-7 {
+    position: relative;
+}
+
+#banner-star-8 {
+    position: relative;
+}
+
+#banner-star-9 {
+    position: relative;
+}
+
+.galaxy {
+    height: 40vw;
+    -webkit-animation: spin-reverse infinite linear;
+    animation: spin-reverse infinite linear;
+    animation-duration: 60s;
+}
+
+@keyframes planet-spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes planet-spin-reverse {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}

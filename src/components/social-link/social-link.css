@@ -1,0 +1,31 @@
+.social-link {
+    width: fit-content;
+}
+
+.social-link-container {
+    height: 3vw;
+    width: 3vw;
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+
+.social-link-container:hover {
+    background-color: rgb(34, 34, 136);
+    transition: .5s;
+}
+
+.social-link-container:hover .fa-github {
+    color: white;
+    transition: .5s;
+}
+
+.fa-github {
+    font-size: 2vw;
+    color: rgb(34, 34, 136);
+    transition: .5s;
+}

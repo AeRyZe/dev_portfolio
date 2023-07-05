@@ -1,9 +1,16 @@
 import './social-link.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function SocialLink(props) {
+    useEffect(() => {
+        AOS.init();
+    }, [])
+
     return (
-        <a className='social-link' href='' data-aos='' data-aos-anchor='' data-aos-delay='' >
+        <a className='social-link' href={props.link} data-aos={props.anim} data-aos-anchor={props.anchor} data-aos-delay={props.delay} >
             <div className='social-link-container'>
                 <FontAwesomeIcon icon={props.icon} />
             </div>

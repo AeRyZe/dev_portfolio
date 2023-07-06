@@ -1,6 +1,6 @@
 nav {
-    width: 96%;
     height: 4vw;
+    width: 96vw;
     background: linear-gradient(180deg, rgba(50, 50, 50, 1) 0%, rgba(30, 30, 30, 1) 75%);
     display: flex;
     justify-content: space-between;

@@ -1,64 +1,102 @@
 .banner-container {
     height: 40vw;
     background-color: rgb(20, 25, 140);
-    display: flex;
-    align-items: center;
-    padding: 17vh 8vw 6vh 8vw;
+    padding: 18vh 10vw 6vh 10vw;
+    overflow: hidden;
 }
 
 h1 {
-    width: 55%;
+    width: 25%;
+    position: absolute;
     font-size: 4vw;
     color: white;
-}
-
-.banner-ui {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: 1;
 }
 
 #banner-star-1 {
+    height: 0.75vw;
     position: relative;
 }
 
 #banner-star-2 {
+    height: 0.5vw;
     position: relative;
 }
 
 #banner-star-3 {
+    height: 1vw;
     position: relative;
 }
 
 #banner-star-4 {
+    height: 0.75vw;
     position: relative;
 }
 
 #banner-star-5 {
+    height: 0.5vw;
     position: relative;
 }
 
 #banner-star-6 {
+    height: 1vw;
     position: relative;
 }
 
 #banner-star-7 {
+    height: 0.75vw;
     position: relative;
 }
 
 #banner-star-8 {
+    height: 0.5vw;
     position: relative;
 }
 
 #banner-star-9 {
+    height: 1vw;
     position: relative;
 }
 
-.galaxy {
+#galaxy {
     height: 40vw;
+    position: absolute;
+    left: 55vw;
     -webkit-animation: spin-reverse infinite linear;
     animation: spin-reverse infinite linear;
     animation-duration: 60s;
+}
+
+#earth {
+    height: 20vw;
+    position: relative;
+    top: 30vw;
+    right: 22vw;
+    -webkit-animation: spin infinite linear;
+    animation: spin infinite linear;
+    animation-duration: 60s;
+}
+
+#shuttle {
+    height: 10vw;
+    position: relative;
+    left: 3vw;
+    bottom: 9vw;
+    transform: rotate(120deg);
+    -webkit-animation: shuttle infinite ease;
+    animation: shuttle infinite ease;
+    animation-duration: 6s;
+}
+
+#astronaut {
+    height: 5vw;
+    position: relative;
+    top: 14vw;
+    right: 11vw;
+    transform: rotate(-10deg);
+    -webkit-animation: float infinite ease;
+    animation: float infinite ease;
+    animation-duration: 4s;
 }
 
 @keyframes planet-spin {
@@ -82,5 +120,28 @@ h1 {
     100% {
         -webkit-transform: rotate(-360deg);
         transform: rotate(-360deg);
+    }
+}
+
+@keyframes shuttle {
+    0% {
+        -webkit-transform: translate(0, 0) rotate(120deg);
+        transform: translate(0, 0) rotate(120deg);
+    }
+    50% {
+        -webkit-transform: translate(0, 2vw) rotate(120deg);
+        transform: translate(0, 2vw) rotate(120deg);
+    }
+}
+
+@keyframes float {
+    0% {
+        -webkit-transform: translate(0, 0) rotate(-10deg);
+        transform: translate(0, 0) rotate(-10deg);
+    }
+
+    50% {
+        -webkit-transform: translate(0, 1vw) rotate(-15deg);
+        transform: translate(0, 1vw) rotate(-15deg);
     }
 }

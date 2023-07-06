@@ -1,23 +1,23 @@
 nav {
-    height: 4vw;
-    width: 96vw;
+    height: 5vw;
+    width: 96.5vw;
     background: linear-gradient(180deg, rgba(50, 50, 50, 1) 0%, rgba(30, 30, 30, 1) 75%);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    padding: 2vh 2vw;
+    padding: 0 2vw;
     z-index: 10;
 }
 
 nav div {
     width: 45%;
     display: flex;
-    gap: 10%;
+    gap: 9.5%;
 }
 
 .header-logo {
-    height: 85%;
+    height: 4vw;
     width: auto;
 }
 

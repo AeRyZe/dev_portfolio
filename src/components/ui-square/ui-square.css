@@ -28,7 +28,7 @@
 }
 
 #about-star-1 {
-    height: 0.75vw;
+    height: 1vw;
     position: relative;
     left: 9vw;
     bottom: 13vw;
@@ -49,14 +49,14 @@
 }
 
 #about-star-4 {
-    height: 0.75vw;
+    height: 1vw;
     position: relative;
     top: 5vw;
     left: 22vw;
 }
 
 #about-star-5 {
-    height: 0.75vw;
+    height: 1.5vw;
     position: relative;
     top: 4vw;
 }

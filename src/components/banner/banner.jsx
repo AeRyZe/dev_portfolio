@@ -37,6 +37,7 @@ function Banner() {
             <FontAwesomeIcon id='banner-star-11' icon={faCircle} beatFade style={{ color: palette.yellow }} />
             <FontAwesomeIcon id='banner-star-12' icon={faCircle} beatFade style={{ color: palette.white }} />
             <FontAwesomeIcon id='banner-star-13' icon={faStarOfLife} beatFade style={{ color: palette.red }} />
+            <FontAwesomeIcon id='banner-star-14' icon={faCircle} beatFade style={{ color: palette.yellow }} />
             <img id='galaxy' src={Galaxy} alt="Icône d'une galaxie" />
             <img id='earth' src={Earth} alt="Icône de la Terre" />
             <img id='shuttle' src={Shuttle} alt="Icône d'une navette spaciale" />

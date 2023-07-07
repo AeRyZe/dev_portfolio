@@ -1,5 +1,6 @@
 .banner-container {
     height: 40vw;
+    width: 100%;
     background-color: rgb(20, 25, 140);
     padding: 18vh 10vw 6vh 10vw;
     overflow: hidden;
@@ -101,6 +102,12 @@ h1 {
     position: relative;
     top: 25vw;
     left: 22vw;
+}
+
+#banner-star-14 {
+    height: 0.5vw;
+    position: relative;
+    left: 76vw;
 }
 
 #galaxy {

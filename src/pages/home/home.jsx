@@ -2,13 +2,15 @@ import './home.css'
 import React from 'react'
 import Banner from '../../components/banner/banner'
 import About from '../../components/about/about'
+import Splitter from '../../components/splitter/splitter'
 
 function Home() {
     return (
-        <React.StrictMode>
+        <div id='body-container'>
             <Banner />
             <About />
-        </React.StrictMode>
+            <Splitter />
+        </div>
     )
 }
 

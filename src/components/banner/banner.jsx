@@ -11,10 +11,6 @@ import Astronaut from '../../assets/astronaut.png'
 
 function Banner() {
     useEffect(() => {
-        window.scrollTo(0, 0)
-    }, [])
-
-    useEffect(() => {
         AOS.init();
     }, [])
 

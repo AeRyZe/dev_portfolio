@@ -4,13 +4,14 @@
     background-color: rgb(20, 25, 140);
     border-radius: 5vw;
     overflow: hidden;
+    position: relative;
 }
 
 #sun {
     width: 18vw;
-    position: relative;
-    left: 12vw;
-    bottom: 4vw;
+    position: absolute;
+    left: 16vw;
+    bottom: 16vw;
     -webkit-animation: spin infinite linear;
     animation: spin infinite linear;
     animation-duration: 60s;
@@ -18,9 +19,9 @@
 
 #satellite {
     height: 5vw;
-    position: relative;
-    top: 4vw;
-    right: 15vw;
+    position: absolute;
+    top: 17vw;
+    right: 16vw;
     -webkit-animation: satellite infinite linear;
     animation: satellite infinite linear;
     animation-duration: 60s;
@@ -29,52 +30,53 @@
 
 #about-star-1 {
     height: 1vw;
-    position: relative;
-    left: 9vw;
-    bottom: 13vw;
+    position: absolute;
+    left: 5vw;
+    bottom: 7vw;
 }
 
 #about-star-2 {
     height: 0.5vw;
-    position: relative;
-    left: 3vw;
-    bottom: 6vw;
+    position: absolute;
+    left: 18vw;
+    bottom: 3vw;
 }
 
 #about-star-3 {
     height: 1vw;
-    position: relative;
-    left: 13vw;
-    bottom: 1vw;
+    position: absolute;
+    left: 26vw;
+    bottom: 10vw;
 }
 
 #about-star-4 {
     height: 1vw;
-    position: relative;
-    top: 5vw;
-    left: 22vw;
+    position: absolute;
+    top: 12vw;
+    left: 3vw;
 }
 
 #about-star-5 {
     height: 1.5vw;
-    position: relative;
-    top: 4vw;
+    position: absolute;
+    top: 15vw;
+    left: 13vw;
 }
 
 #about-star-6 {
     height: 0.5vw;
-    position: relative;
-    top: 10vw;
-    left: 8vw;
+    position: absolute;
+    top: 4vw;
+    left: 9vw;
 }
 
 /* SERVICES */
 
 #black-hole {
     height: 18vw;
-    position: relative;
-    top: 5.4vw;
-    left: 0.45vw;
+    position: absolute;
+    top: 6vw;
+    left: 6vw;
     z-index: 1;
     -webkit-animation: breathing 2s infinite linear;
     animation: breathing 2s infinite linear;
@@ -82,51 +84,53 @@
 
 #vortex {
     height: 26vw;
-    position: relative;
+    position: absolute;
+    top: 2vw;
     left: 2vw;
-    bottom: 17vw;
     -webkit-animation: spin 4s linear infinite;
     animation: spin 4s linear infinite;
 }
 
 #services-star-1 {
     height: 1.25vw;
-    position: relative;
-    left: 4vw;
-    bottom: 13vw;
+    position: absolute;
+    top: 6vw;
+    left: 5vw;
 }
 
 #services-star-2 {
     height: 0.5vw;
-    position: relative;
+    position: absolute;
+    top: 16vw;
+    left: 27vw;
 }
 
 #services-star-3 {
     height: 0.75vw;
-    position: relative;
-    left: 22vw;
-    bottom: 15vw;
+    position: absolute;
+    top: 2vw;
+    left: 17vw;
 }
 
 #services-star-4 {
     height: 1vw;
-    position: relative;
-    top: 9vw;
-    left: 4vw;
+    position: absolute;
+    top: 20vw;
+    left: 2vw;
 }
 
 #services-star-5 {
     height: 1.25vw;
-    position: relative;
-    top: 7vw;
-    left: 21vw;
+    position: absolute;
+    top: 27vw;
+    left: 23vw;
 }
 
 #services-star-6 {
     height: 0.75vw;
-    position: relative;
-    left: 23.5vw;
-    bottom: 5vw;
+    position: absolute;
+    top: 26vw;
+    left: 12vw;
 }
 
 @keyframes spin {

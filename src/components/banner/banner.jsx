@@ -12,7 +12,7 @@ import Astronaut from '../../assets/astronaut.png'
 function Banner() {
     useEffect(() => {
         AOS.init();
-    }, [])
+    })
 
     const palette = {
         white: '#ffffff',

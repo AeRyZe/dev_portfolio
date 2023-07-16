@@ -68,6 +68,67 @@
     left: 8vw;
 }
 
+/* SERVICES */
+
+#black-hole {
+    height: 18vw;
+    position: relative;
+    top: 5.75vw;
+    left: 0.45vw;
+    z-index: 1;
+    -webkit-animation: breathing 2s infinite linear;
+    animation: breathing 2s infinite linear;
+}
+
+#vortex {
+    height: 26vw;
+    position: relative;
+    left: 2vw;
+    bottom: 17vw;
+    -webkit-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+#services-star-1 {
+    height: 1.25vw;
+    position: relative;
+    left: 4vw;
+    bottom: 13vw;
+}
+
+#services-star-2 {
+    height: 0.5vw;
+    position: relative;
+}
+
+#services-star-3 {
+    height: 0.75vw;
+    position: relative;
+    left: 22vw;
+    bottom: 15vw;
+}
+
+#services-star-4 {
+    height: 1vw;
+    position: relative;
+    top: 9vw;
+    left: 4vw;
+}
+
+#services-star-5 {
+    height: 1.25vw;
+    position: relative;
+    top: 7vw;
+    left: 21vw;
+}
+
+#services-star-6 {
+    height: 0.75vw;
+    position: relative;
+    left: 23.5vw;
+    bottom: 5vw;
+}
+
 @keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
@@ -109,5 +170,17 @@
         -webkit-transform: rotate(-720deg) translate(0, 0);
         transform: rotate(-720deg) translate(0, 0);
         transform-origin: center;
+    }
+}
+
+@keyframes breathing {
+    0% {
+        -webkit-transform: scale(1, 1);
+        transform: scale(1, 1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1);
     }
 }

@@ -73,7 +73,7 @@
 #black-hole {
     height: 18vw;
     position: relative;
-    top: 5.75vw;
+    top: 5.7vw;
     left: 0.45vw;
     z-index: 1;
     -webkit-animation: breathing 2s infinite linear;

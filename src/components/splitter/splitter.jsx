@@ -21,6 +21,7 @@ function Splitter() {
             <FontAwesomeIcon id='splitter-star-7' icon={faStarOfLife} beatFade style={{ color: palette.yellow }} />
             <FontAwesomeIcon id='splitter-star-8' icon={faCircle} beatFade style={{ color: palette.blue }} />
             <FontAwesomeIcon id='splitter-star-9' icon={faCircle} beatFade style={{ color: palette.red }} />
+            <FontAwesomeIcon id='splitter-star-10' icon={faStarOfLife} beatFade style={{ color: palette.yellow }} />
         </div>
     )
 }

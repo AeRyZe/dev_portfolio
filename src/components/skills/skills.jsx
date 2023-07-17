@@ -3,7 +3,9 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import UiSquare from '../ui-square/ui-square'
-import ServiceCard from '../skills-cards/skills-card'
+import SkillsCard from '../skills-cards/skills-card'
+import { faHtml5, faSquareJs, faReact, faNode, faPhp } from '@fortawesome/free-brands-svg-icons'
+import { faLeaf } from '@fortawesome/free-solid-svg-icons'
 
 function Skills() {
     useEffect(() => {
@@ -16,13 +18,17 @@ function Skills() {
             <div id='skills-content'>
                 <UiSquare id='2' anim='fade-right' anchor='#skills-container' delay='200' />
                 <div id='skills-cards-container'>
+                    <h3 data-aos='fade-left' data-aos-anchor='#skills-container' data-aos-delay='400'>Front-end</h3>
                     <div id='front-end-cards'>
-                        <h3 data-aos='fade-left' data-aos-anchor='#skills-container' data-aos-delay='400'>Front-end</h3>
-                        <ServiceCard icon='' anim='fade-down' anchor='#skills-container' delay='600' />
+                        <SkillsCard icon={faHtml5} anim='fade-down' anchor='#skills-container' delay='600' />
+                        <SkillsCard icon={faSquareJs} anim='fade-down' anchor='#skills-container' delay='600' />
+                        <SkillsCard icon={faReact} anim='fade-down' anchor='#skills-container' delay='600' />
                     </div>
+                    <h3 data-aos='fade-left' data-aos-anchor='#skills-container' data-aos-delay='800'>Back-end</h3>
                     <div id='back-end-cards'>
-                        <h3 data-aos='fade-left' data-aos-anchor='#skills-container' data-aos-delay='800'>Back-end</h3>
-                        <ServiceCard icon='' anim='fade-up' anchor='#skills-container' delay='1000' />
+                        <SkillsCard icon={faNode} anim='fade-up' anchor='#skills-container' delay='1000' />
+                        <SkillsCard icon={faLeaf} anim='fade-up' anchor='#skills-container' delay='1000' />
+                        <SkillsCard icon={faPhp} anim='fade-up' anchor='#skills-container' delay='1000' />
                     </div>
                 </div>
             </div>

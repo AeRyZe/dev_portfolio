@@ -1,4 +1,4 @@
-import './service-card.css'
+import './skills-card.css'
 
 function ServiceCard(props) {
     return (

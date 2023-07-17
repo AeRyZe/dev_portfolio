@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import UiSquare from '../ui-square/ui-square'
-import ServiceCard from '../service-card/service-card'
+import ServiceCard from '../skills-cards/skills-card'
 
 function Skills() {
     useEffect(() => {

@@ -10,7 +10,7 @@ function Header() {
                 <div>
                     <Link to='/' className='header-link'>Accueil</Link>
                     <Link to='/' className='header-link'>À propos</Link>
-                    <Link to='/' className='header-link'>Services</Link>
+                    <Link to='/' className='header-link'>Compétences</Link>
                     <Link to='/' className='header-link'>Travaux</Link>
                     <Link to='/' className='header-link'>Contact</Link>
                 </div>

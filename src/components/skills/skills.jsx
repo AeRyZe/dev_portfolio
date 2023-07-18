@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import UiSquare from '../ui-square/ui-square'
-import SkillsCard from '../skills-cards/skills-card'
+import SkillsCard from '../skill-card/skill-card'
 import { faHtml5, faSquareJs, faReact, faNode, faPhp } from '@fortawesome/free-brands-svg-icons'
 import { faLeaf } from '@fortawesome/free-solid-svg-icons'
 

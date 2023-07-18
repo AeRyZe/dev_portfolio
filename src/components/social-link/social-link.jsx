@@ -12,7 +12,7 @@ function SocialLink(props) {
     return (
         <a className='social-link' href={props.link} data-aos={props.anim} data-aos-anchor={props.anchor} data-aos-delay={props.delay} >
             <div className='social-link-container'>
-                <FontAwesomeIcon icon={props.icon} />
+                <FontAwesomeIcon className='social-link-icon' icon={props.icon} />
             </div>
         </a>
     )

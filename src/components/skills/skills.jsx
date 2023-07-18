@@ -21,7 +21,7 @@ function Skills() {
                     <h3 data-aos='fade-left' data-aos-anchor='#skills-container' data-aos-delay='400'>Front-end</h3>
                     <div id='front-end-cards'>
                         <SkillsCard icon={faHtml5} anim='fade-down' anchor='#skills-container' delay='600' text='HTML5 & CSS3' />
-                        <SkillsCard icon={faSquareJs} anim='fade-down' anchor='#skills-container' delay='600' text='JavaScript Native' />
+                        <SkillsCard icon={faSquareJs} anim='fade-down' anchor='#skills-container' delay='600' text='JavaScript' />
                         <SkillsCard icon={faReact} anim='fade-down' anchor='#skills-container' delay='600' text='ReactJS' />
                     </div>
                     <h3 data-aos='fade-left' data-aos-anchor='#skills-container' data-aos-delay='800'>Back-end</h3>

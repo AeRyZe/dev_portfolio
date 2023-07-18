@@ -1,18 +1,23 @@
 .card-container {
     height: 12vw;
     width: 10vw;
-    background-color: black;
+    background-color: rgb(20, 25, 140);
     border-radius: 1vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+
 }
 
 .skill-card-icon {
     font-size: 3vw;
+    margin-top: 2vw;
 }
 
 p {
+    width: 80%;
+    font-size: 1.5vw;
     color: white;
+    text-align: center;
 }

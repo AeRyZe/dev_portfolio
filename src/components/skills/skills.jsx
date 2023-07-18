@@ -20,15 +20,15 @@ function Skills() {
                 <div id='skills-cards-container'>
                     <h3 data-aos='fade-left' data-aos-anchor='#skills-container' data-aos-delay='400'>Front-end</h3>
                     <div id='front-end-cards'>
-                        <SkillsCard icon={faHtml5} anim='fade-down' anchor='#skills-container' delay='600' text='testing out' />
-                        <SkillsCard icon={faSquareJs} anim='fade-down' anchor='#skills-container' delay='600' />
-                        <SkillsCard icon={faReact} anim='fade-down' anchor='#skills-container' delay='600' />
+                        <SkillsCard icon={faHtml5} anim='fade-down' anchor='#skills-container' delay='600' text='HTML5 & CSS3' />
+                        <SkillsCard icon={faSquareJs} anim='fade-down' anchor='#skills-container' delay='600' text='JavaScript Native' />
+                        <SkillsCard icon={faReact} anim='fade-down' anchor='#skills-container' delay='600' text='ReactJS' />
                     </div>
                     <h3 data-aos='fade-left' data-aos-anchor='#skills-container' data-aos-delay='800'>Back-end</h3>
                     <div id='back-end-cards'>
-                        <SkillsCard icon={faNode} anim='fade-up' anchor='#skills-container' delay='1000' />
-                        <SkillsCard icon={faLeaf} anim='fade-up' anchor='#skills-container' delay='1000' />
-                        <SkillsCard icon={faPhp} anim='fade-up' anchor='#skills-container' delay='1000' />
+                        <SkillsCard icon={faNode} anim='fade-up' anchor='#skills-container' delay='1000' text='NodeJS' />
+                        <SkillsCard icon={faLeaf} anim='fade-up' anchor='#skills-container' delay='1000' text='MongoDB' />
+                        <SkillsCard icon={faPhp} anim='fade-up' anchor='#skills-container' delay='1000' text='PHP' />
                     </div>
                 </div>
             </div>

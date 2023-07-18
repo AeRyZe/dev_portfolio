@@ -14,12 +14,12 @@
     transition: .5s;
 }
 
-.social-link-container:hover {
+.social-link-container:hover, .social-link-container:active {
     background-color: rgb(34, 34, 136);
     transition: .5s;
 }
 
-.social-link-container:hover .social-link-icon {
+.social-link-container:hover .social-link-icon, .social-link-container:active .social-link-icon {
     color: white;
     transition: .5s;
 }

@@ -27,7 +27,7 @@ nav div {
     text-decoration: none;
 }
 
-.header-link:hover {
+.header-link:hover, .header-link:active {
     transition: .5s ease;
     font-weight: bold;
 }

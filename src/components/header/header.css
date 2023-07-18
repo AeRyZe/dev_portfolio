@@ -11,7 +11,7 @@ nav {
 }
 
 nav div {
-    width: 52%;
+    width: 50%;
     display: flex;
     gap: 9.5%;
 }

@@ -32,6 +32,9 @@ function Skills() {
                     </div>
                 </div>
             </div>
+            <p id='skills-tools' data-aos='fade-up' data-aos-anchor='#skills-container' data-aos-delay='1200'>
+                <b>Outils :</b> GitHub, Visual Studio Code, npm, Postman, PhpMyAdmin, WAMP, Lighthouse
+            </p>
         </div>
     )
 }

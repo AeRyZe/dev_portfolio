@@ -1,4 +1,4 @@
-.card-container {
+.skill-card-container {
     height: 12vw;
     width: 10vw;
     background-color: rgb(20, 25, 140);
@@ -15,7 +15,7 @@
     margin-top: 2vw;
 }
 
-.card-container p {
+.skill-card-container p {
     width: 80%;
     font-size: 1.5vw;
     color: white;

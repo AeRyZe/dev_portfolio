@@ -10,7 +10,7 @@ function SkillCard(props) {
     })
 
     return (
-        <div className='card-container' data-aos={props.anim} data-aos-anchor={props.anchor} data-aos-delay={props.delay}>
+        <div className='skill-card-container' data-aos={props.anim} data-aos-anchor={props.anchor} data-aos-delay={props.delay}>
             <FontAwesomeIcon className='skill-card-icon' icon={props.icon} style={{ color: '#ffffff' }} />
             <p>{props.text}</p>
         </div>

@@ -1,0 +1,76 @@
+.project-card-container {
+    height: 34vw;
+    width: 28vw;
+    background-color: rgb(20, 25, 140);
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw;
+    margin-bottom: 5vw;
+}
+
+.project-card-preview {
+    height: 45%;
+    width: 100%;
+    position: relative;
+}
+
+.project-card-img {
+    height: 100%;
+    width: 100%;
+    border-radius: 1vw;
+    position: absolute;
+    z-index: 0;
+}
+
+.project-card-overlay {
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 1vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    z-index: 1;
+    transition: .5s ease-in-out;
+    color: white;
+    text-align: center;
+    line-height: 15vw;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.project-card-preview:hover .project-card-overlay {
+    opacity: 1;
+    transition: .5s ease-in-out;
+}
+
+.project-card-title {
+    font-size: 2vw;
+    color: white;
+    margin: 0;
+}
+
+.project-card-text {
+    font-size: 1.2vw;
+    color: white;
+    text-align: center;
+}
+
+.project-card-code {
+    width: 93%;
+    font-size: 1.2vw;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(0deg, rgba(35, 35, 35, 1) 0%, rgba(50, 50, 50, 1) 50%);
+    border-radius: 1vw;
+    padding: 1vw;
+}
+
+.project-card-code:hover {
+    color: rgb(20, 25, 140);
+    background: white;
+    transition: .5s ease-in-out;
+}

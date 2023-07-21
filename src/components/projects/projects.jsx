@@ -22,35 +22,35 @@ function Projects() {
                     title='Booki'
                     image={Booki}
                     link='https://aeryze.github.io/Booki/'
-                    text="Interface d'un site de locations immobilières"
+                    text="créer la page d'accueil d'une agence de voyage avec HTML & CSS ; rendre un site web responsive pour appareils mobiles"
                     code='https://github.com/AeRyZe/Booki'
                 />
                 <ProjectCard
                     title='Sophie Bluel'
                     image={SophieBluel}
                     link='https://aeryze.github.io/SophieBluel/FrontEnd'
-                    text="Portfolio de la photographe Sophie Bluel"
+                    text="créer une page web dynamique avec JavaScript ; afficher des données à l'aide d'une API"
                     code='https://github.com/AeRyZe/SophieBluel'
                 />
                 <ProjectCard
                     title='Nina Carducci'
                     image={NinaCarducci}
                     link='https://aeryze.github.io/nina-carducci.github.io/'
-                    text="Optimisation SEO du site web de la photographe Nina Carducci"
+                    text="débugger et optimiser un site de photographe (optimisation des images, optimisation de la structure du code, accroître le référencement)"
                     code='https://github.com/AeRyZe/nina-carducci.github.io'
                 />
                 <ProjectCard
                     title='Kasa'
                     image={Kasa}
                     link='https://kasa-self.vercel.app/'
-                    text="construire le front-end d'un site web avec ReactJS"
+                    text="créer une application web de location immobilière avec ReactJS ; utilisation de SASS pour améliorer l'interface"
                     code='https://github.com/AeRyZe/kasa'
                 />
                 <ProjectCard
                     title='Mon Vieux Grimoire'
                     link='https://mon-vieux-grimoire-server.onrender.com/api/books'
                     image={MonVieuxGrimoire}
-                    text="construire le back-end d'un site web avec NodeJS"
+                    text="développer le back-end d'un site de notation de livres avec NodeJS ; application des bonnes pratiques Green Code"
                     code='https://github.com/AeRyZe/mon-vieux-grimoire'
                 />
             </div>

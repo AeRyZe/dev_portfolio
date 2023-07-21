@@ -62,6 +62,7 @@
     color: rgb(20, 25, 140);
     background-color: white;
     transition: .5s ease-in-out;
+    cursor: pointer;
 }
 
 #contact-name:focus,

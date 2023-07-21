@@ -1,5 +1,9 @@
 import './contact.css'
 import { useRef } from 'react'
+import { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import UiSquare from '../ui-square/ui-square'
 import emailjs from '@emailjs/browser'
 
 function Contact() {
@@ -14,22 +18,36 @@ function Contact() {
             }, (error) => {
                 console.log(error.text);
             });
-            
+
         e.target.reset();
+
+        alert('Votre message à bien été envoyé !');
     };
+
+    useEffect(() => {
+        AOS.init();
+    });
 
     return (
         <div id='contact-container'>
-            <h2 id='contact-title'>Contact</h2>
-            <form ref={form} onSubmit={sendEmail} id='contact-form'>
-                <label htmlFor="contact-name">Nom</label>
-                <input type="text" name="contact-name" id='contact-name' placeholder='Votre nom et prénom' required />
-                <label htmlFor="contact-mail">Email</label>
-                <input type="text" name="contact-mail" id='contact-mail' placeholder='Votre adresse mail' required />
-                <label htmlFor="contact-message">Message</label>
-                <textarea name="contact-message" id="contact-message" cols="30" rows="15" placeholder='En quoi puis-je vous aider ?' required></textarea>
-                <input type="submit" text='Envoyer' id='contact-send' />
-            </form>
+            <h2 id='contact-title' data-aos='fade-left' data-aos-anchor='#contact-container'>Contact</h2>
+            <div id='contact-content'>
+                <form ref={form} onSubmit={sendEmail} id='contact-form'>
+                    <label htmlFor="contact-name">Nom</label>
+                    <input type="text" name="contact-name" id='contact-name' placeholder='Votre nom et prénom' required />
+                    <label htmlFor="contact-mail">Email</label>
+                    <input type="text" name="contact-mail" id='contact-mail' placeholder='Votre adresse mail' required />
+                    <label htmlFor="contact-message">Message</label>
+                    <textarea name="contact-message" id="contact-message" cols="30" rows="15" placeholder='En quoi puis-je vous aider ?' required></textarea>
+                    <input type="submit" text='Envoyer' name='contact-send' id='contact-send' />
+                </form>
+                <div id='contact-sub'>
+                    <UiSquare id='3' />
+                    <p id='contact-mailto'>
+                        Si vous rencontrez un quelconque problème avec ce formulaire, ou que vous préferez me joindre via votre messagerie, cliquez sur ce <a href='mailto:laurent.pardo.dev@gmail.com'>lien</a>
+                    </p>
+                </div>
+            </div>
         </div>
     )
 }

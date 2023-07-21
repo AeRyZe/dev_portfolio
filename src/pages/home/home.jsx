@@ -4,6 +4,7 @@ import Banner from '../../components/banner/banner'
 import About from '../../components/about/about'
 import Skills from '../../components/skills/skills'
 import Projects from '../../components/projects/projects'
+import Contact from '../../components/contact/contact'
 
 function Home() {
     return (
@@ -12,6 +13,7 @@ function Home() {
             <About />
             <Skills />
             <Projects />
+            <Contact />
         </div>
     )
 }

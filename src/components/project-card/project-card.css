@@ -64,13 +64,14 @@
     color: white;
     text-align: center;
     text-decoration: none;
-    background: linear-gradient(0deg, rgba(35, 35, 35, 1) 0%, rgba(50, 50, 50, 1) 50%);
+    background-color: rgb(50, 50, 50);
     border-radius: 1vw;
     padding: 1vw;
+    transition: .5s ease-in-out;
 }
 
 .project-card-code:hover {
     color: rgb(20, 25, 140);
-    background: white;
+    background-color: white;
     transition: .5s ease-in-out;
 }

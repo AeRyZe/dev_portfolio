@@ -30,9 +30,9 @@ function Contact() {
 
     return (
         <div id='contact-container'>
-            <h2 id='contact-title' data-aos='fade-left' data-aos-anchor='#contact-container'>Contact</h2>
+            <h2 id='contact-title' data-aos='fade-right' data-aos-anchor='#contact-container'>Contact</h2>
             <div id='contact-content'>
-                <form ref={form} onSubmit={sendEmail} id='contact-form'>
+                <form ref={form} onSubmit={sendEmail} id='contact-form' data-aos='fade-right' data-aos-anchor='#contact-container' data-aos-delay='200'>
                     <label htmlFor="contact-name">Nom</label>
                     <input type="text" name="contact-name" id='contact-name' placeholder='Votre nom et prénom' required />
                     <label htmlFor="contact-mail">Email</label>
@@ -42,8 +42,8 @@ function Contact() {
                     <input type="submit" text='Envoyer' name='contact-send' id='contact-send' />
                 </form>
                 <div id='contact-sub'>
-                    <UiSquare id='3' />
-                    <p id='contact-mailto'>
+                    <UiSquare id='3' anim='fade-left' anchor='#contact-container' delay='400' />
+                    <p id='contact-mailto' data-aos='fade-up' data-aos-anchor='#contact-container' data-aos-delay='600'>
                         Si vous rencontrez un quelconque problème avec ce formulaire, ou que vous préferez me joindre via votre messagerie, cliquez sur ce <a href='mailto:laurent.pardo.dev@gmail.com'>lien</a>
                     </p>
                 </div>

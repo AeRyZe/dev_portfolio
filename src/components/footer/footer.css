@@ -1,6 +1,6 @@
 footer {
     height: fit-content;
-    background-color: rgb(20, 25, 140);
+    background: linear-gradient(180deg, rgba(20, 25, 140, 1) 0%, rgba(0, 0, 115, 1) 75%);
     padding: 5vw;
 }
 

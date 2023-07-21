@@ -7,7 +7,7 @@ import 'aos/dist/aos.css'
 function SkillCard(props) {
     useEffect(() => {
         AOS.init();
-    })
+    });
 
     return (
         <div className='skill-card-container' data-aos={props.anim} data-aos-anchor={props.anchor} data-aos-delay={props.delay}>

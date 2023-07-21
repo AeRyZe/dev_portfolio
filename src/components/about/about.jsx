@@ -9,7 +9,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 function About() {
     useEffect(() => {
         AOS.init();
-    }, [])
+    });
     
     return (
         <div id='about-container'>

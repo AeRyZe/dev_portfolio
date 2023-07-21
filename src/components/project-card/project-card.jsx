@@ -6,7 +6,7 @@ import 'aos/dist/aos.css'
 function ProjectCard(props) {
     useEffect(() => {
         AOS.init();
-    })
+    });
 
     return (
         <div className='project-card-container' data-aos={props.anim} data-aos-anchor={props.anchor} data-aos-delay={props.delay}>

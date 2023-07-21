@@ -15,11 +15,11 @@ function UiSquare(props) {
         red: '#ff6464',
         yellow: '#fffb80',
         blue: '#76d5fe'
-    }
+    };
 
     useEffect(() => {
         AOS.init();
-    })
+    });
 
     if (props.id === '1') {
         return (

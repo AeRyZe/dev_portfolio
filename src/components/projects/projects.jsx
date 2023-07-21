@@ -12,7 +12,7 @@ import MonVieuxGrimoire from '../../assets/projects/monvieuxgrimoire.png'
 function Projects() {
     useEffect(() => {
         AOS.init();
-    })
+    });
 
     return (
         <div id='projects-container'>

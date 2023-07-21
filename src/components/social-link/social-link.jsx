@@ -7,7 +7,7 @@ import 'aos/dist/aos.css'
 function SocialLink(props) {
     useEffect(() => {
         AOS.init();
-    }, [])
+    });
 
     return (
         <a className='social-link' href={props.link} data-aos={props.anim} data-aos-anchor={props.anchor} data-aos-delay={props.delay} >

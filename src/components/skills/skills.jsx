@@ -10,7 +10,7 @@ import { faLeaf } from '@fortawesome/free-solid-svg-icons'
 function Skills() {
     useEffect(() => {
         AOS.init();
-    })
+    });
 
     return (
         <div id='skills-container'>

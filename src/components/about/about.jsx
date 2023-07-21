@@ -4,6 +4,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import UiSquare from '../ui-square/ui-square'
 import SocialLink from '../social-link/social-link'
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function About() {
@@ -24,6 +25,7 @@ function About() {
             <div id='about-links-container'>
                 <SocialLink icon={faGithub} link='https://github.com/AeRyZe' anim='fade-up' anchor='#about-container' delay='600' />
                 <SocialLink icon={faLinkedin} link='https://www.linkedin.com/in/laurent-pardo-4675ba246/' anim='fade-up' anchor='#about-container' delay='600' />
+                <SocialLink icon={faEnvelope} link='mailto:laurent.pardo.dev@gmail.com' anim='fade-up' anchor='#about-container' delay='800' />
             </div>
         </div>
     )

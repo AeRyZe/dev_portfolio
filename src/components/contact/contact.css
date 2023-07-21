@@ -1,0 +1,71 @@
+#contact-container {
+    height: fit-content;
+    background: linear-gradient(0deg, rgba(35, 35, 35, 1) 0%, rgba(50, 50, 50, 1) 50%);
+    padding: 6vw 6vw 5vw 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-title {
+    font-size: 3vw;
+    color: white;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+#contact-form label {
+    color: white;
+    font-size: 1.5vw;
+}
+
+#contact-name,
+#contact-mail {
+    width: 40vw;
+    font-family: 'Belanosima', 'sans-serif';
+    color: rgb(20, 25, 140);
+    border-radius: 1vw;
+    padding: 1vw;
+    border: none;
+    font-size: 1.25vw;
+}
+
+#contact-message {
+    width: 40vw;
+    font-family: 'Belanosima', 'sans-serif';
+    color: rgb(20, 25, 140);
+    border-radius: 1vw;
+    resize: none;
+    padding: 1vw;
+    border: none;
+    font-size: 1.25vw;
+}
+
+#contact-send {
+    width: 42vw;
+    font-family: 'Belanosima', 'sans-serif';
+    color: white;
+    background-color: rgb(20, 25, 140);
+    border-radius: 1vw;
+    margin-top: 1vw;
+    padding: 1vw;
+    border: none;
+    transition: .5s ease-in-out;
+    font-size: 1.5vw;
+}
+
+#contact-send:hover {
+    color: rgb(20, 25, 140);
+    background-color: white;
+    transition: .5s ease-in-out;
+}
+
+#contact-name:focus,
+#contact-mail:focus,
+#contact-message:focus {
+    outline: none;
+}

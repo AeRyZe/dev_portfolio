@@ -16,7 +16,7 @@ function Projects() {
 
     return (
         <div id='projects-container'>
-            <h2 id='projects-title'>Travaux</h2>
+            <h2 id='projects-title' data-aos='fade-left' data-aos-anchor='#projects-container'>Travaux</h2>
             <div id='projects-content'>
                 <ProjectCard
                     title='Booki'
@@ -24,6 +24,9 @@ function Projects() {
                     link='https://aeryze.github.io/Booki/'
                     text="créer la page d'accueil d'une agence de voyage avec HTML & CSS ; rendre un site web responsive pour appareils mobiles"
                     code='https://github.com/AeRyZe/Booki'
+                    anim='fade-right'
+                    anchor='#projects-container'
+                    delay='200'
                 />
                 <ProjectCard
                     title='Sophie Bluel'
@@ -31,6 +34,9 @@ function Projects() {
                     link='https://aeryze.github.io/SophieBluel/FrontEnd'
                     text="créer une page web dynamique avec JavaScript ; afficher des données à l'aide d'une API"
                     code='https://github.com/AeRyZe/SophieBluel'
+                    anim='fade-left'
+                    anchor='#projects-container'
+                    delay='300'
                 />
                 <ProjectCard
                     title='Nina Carducci'
@@ -38,6 +44,9 @@ function Projects() {
                     link='https://aeryze.github.io/nina-carducci.github.io/'
                     text="débugger et optimiser un site de photographe (optimisation des images, optimisation de la structure du code, accroître le référencement)"
                     code='https://github.com/AeRyZe/nina-carducci.github.io'
+                    anim='fade-right'
+                    anchor='#projects-container'
+                    delay='400'
                 />
                 <ProjectCard
                     title='Kasa'
@@ -45,6 +54,9 @@ function Projects() {
                     link='https://kasa-self.vercel.app/'
                     text="créer une application web de location immobilière avec ReactJS ; utilisation de SASS pour améliorer l'interface"
                     code='https://github.com/AeRyZe/kasa'
+                    anim='fade-left'
+                    anchor='#projects-container'
+                    delay='500'
                 />
                 <ProjectCard
                     title='Mon Vieux Grimoire'
@@ -52,6 +64,9 @@ function Projects() {
                     image={MonVieuxGrimoire}
                     text="développer le back-end d'un site de notation de livres avec NodeJS ; application des bonnes pratiques Green Code"
                     code='https://github.com/AeRyZe/mon-vieux-grimoire'
+                    anim='fade-up'
+                    anchor='#projects-container'
+                    delay='600'
                 />
             </div>
         </div>

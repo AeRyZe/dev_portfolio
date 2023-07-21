@@ -47,6 +47,12 @@ function UiSquare(props) {
                 <img id='vortex' src={Vortex} alt="Icône du vortex d'un trou noir" />
             </div>
         )
+    } else if (props.id === '3') {
+        return(
+            <div className='ui-square-container' data-aos={props.anim} data-aos-anchor={props.anchor} data-aos-delay={props.delay}>
+                
+            </div>
+        )
     }
 }
 

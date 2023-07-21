@@ -1,7 +1,7 @@
 nav {
     height: 5vw;
     width: 96.5vw;
-    background: linear-gradient(180deg, rgba(50, 50, 50, 1) 0%, rgba(30, 30, 30, 1) 75%);
+    background: linear-gradient(180deg, rgba(20, 25, 140, 1) 0%, rgba(0, 0, 115, 1) 75%);
     display: flex;
     justify-content: space-between;
     align-items: center;

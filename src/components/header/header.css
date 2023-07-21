@@ -13,7 +13,7 @@ nav {
 nav div {
     width: 50%;
     display: flex;
-    gap: 9.5%;
+    justify-content: space-around;
 }
 
 .header-logo {

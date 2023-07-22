@@ -32,11 +32,11 @@ function Contact() {
         <div id='contact-container'>
             <h2 id='contact-title' data-aos='fade-right' data-aos-anchor='#contact-container'>Contact</h2>
             <div id='contact-content'>
-                <form ref={form} onSubmit={sendEmail} id='contact-form' data-aos='fade-right' data-aos-anchor='#contact-container' data-aos-delay='200'>
+                <form ref={form} id='contact-form' onSubmit={sendEmail} data-aos='fade-right' data-aos-anchor='#contact-container' data-aos-delay='200'>
                     <label htmlFor="contact-name">Nom</label>
                     <input type="text" autoComplete='off' name="contact-name" id='contact-name' placeholder='Votre nom et prénom' required />
                     <label htmlFor="contact-mail">Email</label>
-                    <input type="text" autoComplete='off' name="contact-mail" id='contact-mail' placeholder='Votre adresse mail' required />
+                    <input type="email" autoComplete='off' name="contact-mail" id='contact-mail' placeholder='Votre adresse mail' pattern='[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$' required />
                     <label htmlFor="contact-message">Message</label>
                     <textarea name="contact-message" id="contact-message" cols="30" rows="15" placeholder='En quoi puis-je vous aider ?' required></textarea>
                     <input type="submit" text='Envoyer' name='contact-send' id='contact-send' />

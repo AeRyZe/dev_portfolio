@@ -133,6 +133,77 @@
     left: 12vw;
 }
 
+/* CONTACT */
+
+#mars {
+    height: 12vw;
+    position: absolute;
+    top: 21vw;
+    right: 21vw;
+    animation: spin 60s infinite linear;
+    -webkit-animation: spin 60s infinite linear;
+}
+
+#uranus {
+    height: 8vw;
+    position: absolute;
+    top: 3vw;
+    right: 4vw;
+    animation: spin-reverse 60s infinite linear;
+    -webkit-animation: spin-reverse 60s infinite linear;
+}
+
+#ufo {
+    height: 6vw;
+    position: absolute;
+    top: 16vw;
+    right: 9vw;
+    animation: float 4s infinite ease-in-out;
+    -webkit-animation: float 4s infinite ease-in-out;
+}
+
+#contact-star-1 {
+    height: 1.25vw;
+    position: absolute;
+    top: 3vw;
+    left: 4vw;
+}
+
+#contact-star-2 {
+    height: 0.5vw;
+    position: absolute;
+    top: 10vw;
+    left: 14vw;
+}
+
+#contact-star-3 {
+    height: 1vw;
+    position: absolute;
+    top: 16vw;
+    left: 6vw;
+}
+
+#contact-star-4 {
+    height: 1.25vw;
+    position: absolute;
+    top: 14vw;
+    right: 3vw;
+}
+
+#contact-star-5 {
+    height: 0.75vw;
+    position: absolute;
+    top: 26vw;
+    right: 5vw;
+}
+
+#contact-star-6 {
+    height: 0.5vw;
+    position: absolute;
+    top: 28vw;
+    right: 16vw;
+}
+
 @keyframes spin {
     0% {
         -webkit-transform: rotate(0deg);
@@ -186,5 +257,17 @@
     50% {
         -webkit-transform: scale(1.1, 1.1);
         transform: scale(1.1, 1.1);
+    }
+}
+
+@keyframes float {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    50% {
+        -webkit-transform: translate(0, 1vw);
+        transform: translate(0, 1vw);
     }
 }

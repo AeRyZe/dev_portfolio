@@ -25,7 +25,7 @@ function About() {
                     <br></br>
                     C'est ainsi que j'ai décidé de suivre la formation distancielle d'Openclassrooms, formation qui nécessite de travailler en parfaite autonomie et d'être rigoureux.
                     <br></br>
-                    Je suis quelqu'un de créatif, curieux, flexible, communicatif, rigoureux et très déterminé à apprendre et maîtriser de nouveaux langages/outils.
+                    Je suis quelqu'un de créatif, curieux, flexible, communicatif, autonome et déterminé à apprendre et maîtriser de nouveaux langages/outils.
                 </p>
                 <UiSquare id='1' anim='fade-left' anchor='#about-container' delay='400' />
             </div>

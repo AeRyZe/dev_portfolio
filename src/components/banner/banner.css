@@ -133,8 +133,8 @@ h1 {
     left: 43vw;
     bottom: 32vw;
     transform: rotate(120deg);
-    -webkit-animation: shuttle infinite ease;
-    animation: shuttle infinite ease;
+    -webkit-animation: shuttle infinite ease-in-out;
+    animation: shuttle infinite ease-in-out;
     animation-duration: 6s;
 }
 
@@ -143,9 +143,9 @@ h1 {
     position: absolute;
     top: 33vw;
     left: 43vw;
-    transform: rotate(-10deg);
-    -webkit-animation: float infinite ease;
-    animation: float infinite ease;
+    rotate: -10deg;
+    -webkit-animation: float infinite ease-in-out;
+    animation: float infinite ease-in-out;
     animation-duration: 4s;
 }
 
@@ -191,7 +191,7 @@ h1 {
     }
 
     50% {
-        -webkit-transform: translate(0, 1vw) rotate(-15deg);
-        transform: translate(0, 1vw) rotate(-15deg);
+        -webkit-transform: translate(0, 1vw) rotate(-20deg);
+        transform: translate(0, 1vw) rotate(-20deg);
     }
 }

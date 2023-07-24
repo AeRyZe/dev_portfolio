@@ -13,7 +13,7 @@ function Skills() {
     });
 
     return (
-        <div id='skills-container'>
+        <section id='skills-container'>
             <h2 id='skills-title' data-aos='fade-right' data-aos-anchor='#skills-container'>Compétences</h2>
             <div id='skills-content'>
                 <UiSquare id='2' anim='fade-right' anchor='#skills-container' delay='200' />
@@ -35,7 +35,7 @@ function Skills() {
             <p id='skills-tools' data-aos='fade-up' data-aos-anchor='#skills-container' data-aos-delay='1200'>
                 <b>Outils :</b> GitHub, Visual Studio Code, npm, SASS, Postman, PhpMyAdmin, WAMP, Lighthouse, Google Analytics
             </p>
-        </div>
+        </section>
     )
 }
 

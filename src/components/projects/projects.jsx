@@ -21,7 +21,7 @@ function Projects() {
     });
 
     return (
-        <div id='projects-container'>
+        <section id='projects-container'>
             <h2 id='projects-title' data-aos='fade-left' data-aos-anchor='#projects-container'>Travaux</h2>
             <div id='projects-content'>
                 {
@@ -42,7 +42,7 @@ function Projects() {
                     })
                 }
             </div>
-        </div>
+        </section>
     )
 }
 

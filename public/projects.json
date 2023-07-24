@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Booki",
+        "image": "/projects/booki.png",
+        "mission": "créer la page d'accueil d'une agence de voyage avec HTML & CSS ; rendre un site web responsive pour appareils mobiles",
+        "link": "https://aeryze.github.io/Booki/",
+        "code": "https://github.com/AeRyZe/Booki"
+    },
+    {
+        "name": "Sophie Bluel",
+        "image": "/projects/sophiebluel.png",
+        "mission": "créer une page web dynamique avec JavaScript ; afficher des données à l'aide d'une API",
+        "code": "https://github.com/AeRyZe/SophieBluel"
+    },
+    {
+        "name": "Nina Carducci",
+        "image": "/projects/ninacarducci.png",
+        "mission": "débugger et optimiser un site de photographe (optimisation des images, optimisation de la structure du code, accroître le référencement)",
+        "link": "https://aeryze.github.io/nina-carducci.github.io/",
+        "code": "https://github.com/AeRyZe/nina-carducci.github.io"
+    },
+    {
+        "name": "Kasa",
+        "image": "/projects/kasa.png",
+        "mission": "créer une application web de location immobilière avec ReactJS ; utilisation de SASS pour améliorer l'interface",
+        "link": "https://kasa-self.vercel.app/",
+        "code": "https://github.com/AeRyZe/kasa"
+    },
+    {
+        "name": "Mon Vieux Grimoire",
+        "image": "/projects/monvieuxgrimoire.png",
+        "mission": "développer le back-end d'un site de notation de livres avec NodeJS ; application des bonnes pratiques Green Code",
+        "code": "https://github.com/AeRyZe/mon-vieux-grimoire"
+    }
+]

@@ -29,7 +29,7 @@ function Contact() {
     });
 
     return (
-        <div id='contact-container'>
+        <section id='contact-container'>
             <h2 id='contact-title' data-aos='fade-right' data-aos-anchor='#contact-container'>Contact</h2>
             <div id='contact-content'>
                 <form ref={form} id='contact-form' onSubmit={sendEmail} data-aos='fade-right' data-aos-anchor='#contact-container' data-aos-delay='200'>
@@ -48,7 +48,7 @@ function Contact() {
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

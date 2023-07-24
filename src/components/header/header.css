@@ -10,7 +10,7 @@ nav {
     z-index: 10;
 }
 
-nav div {
+#header-links {
     width: 50%;
     display: flex;
     justify-content: space-around;
@@ -30,4 +30,75 @@ nav div {
 .header-link:hover, .header-link:active {
     transition: .5s ease;
     font-weight: bold;
+}
+
+#menu-button {
+    display: none;
+}
+
+#menu-open {
+    display: none;
+}
+
+#menu-close {
+    display: none;
+}
+
+#menu-container {
+    display: none;
+}
+
+@media screen and (max-width: 993px) {
+    nav {
+        width: 90vw;
+        height: 15vw;
+        padding: 0 5vw;
+    }
+
+    .header-logo {
+        height: 12vw;
+    }
+
+    #header-links {
+        display: none;
+    }
+
+    .header-link {
+        font-size: 3.5vw;
+    }
+
+    #menu-container {
+        display: block;
+        height: 10vw;
+    }
+
+    #menu-button {
+        display: block;
+        height: 10vw;
+        color: white;
+    }
+
+    #menu-open {
+        height: 40vw;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background: linear-gradient(0deg, rgba(20, 25, 140, 1) 0%, rgba(0, 0, 115, 1) 75%);
+        border-radius: 0 0 4vw 4vw;
+        padding: 5vw;
+        position: absolute;
+        top: 15vw;
+        right: 0;
+    }
+
+    #menu-close {
+        display: none;
+    }
+
+    .menu-link {
+        font-size: 4vw;
+        color: white;
+        text-decoration: none;
+    }
 }

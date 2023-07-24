@@ -13,7 +13,7 @@ function About() {
     });
     
     return (
-        <div id='about-container'>
+        <section id='about-container'>
             <h2 id='about-title' data-aos='fade-left' data-aos-anchor='#about-container'>À propos</h2>
             <div id='about-content'>
                 <p id='about-text' data-aos='fade-right' data-aos-anchor='#about-container' data-aos-delay='200'>
@@ -34,7 +34,7 @@ function About() {
                 <SocialLink icon={faLinkedin} link='https://www.linkedin.com/in/laurent-pardo-4675ba246/' anim='fade-up' anchor='#about-container' delay='600' />
                 <SocialLink icon={faEnvelope} link='mailto:laurent.pardo.dev@gmail.com' anim='fade-up' anchor='#about-container' delay='800' />
             </div>
-        </div>
+        </section>
     )
 }
 

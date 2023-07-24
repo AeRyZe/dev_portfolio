@@ -13,10 +13,10 @@ function ProjectCard(props) {
             <h2 className='project-card-title'>{props.title}</h2>
             <div className='project-card-preview'>
                 <img className='project-card-img' src={props.image} alt='Aperçu du site web'></img>
-                {props.link ? <a className='project-card-overlay' href={props.link}>Voir le site web</a> : null}
+                {props.link ? <a className='project-card-overlay' target='_blank' rel='noreferrer' href={props.link}>Voir le site web</a> : null}
             </div>
             <p className='project-card-text'><strong>Mission(s) :</strong> {props.text}</p>
-            <a className='project-card-code' href={props.code}>Voir le code source</a>
+            <a className='project-card-code' target='_blank' rel='noreferrer' href={props.code}>Voir le code source</a>
         </div>
     )
 }

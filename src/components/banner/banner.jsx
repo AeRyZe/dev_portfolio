@@ -22,7 +22,7 @@ function Banner() {
     };
 
     return (
-        <div className='banner-container' id='banner-container'>
+        <section className='banner-container' id='banner-container'>
             <h1 data-aos='zoom-in' data-aos-delay='400' data-aos-duration='1000' data-aos-anchor='#banner-container'>Bonjour ! <br/> Je suis Laurent Pardo, développeur front-end et back-end.</h1>
             <FontAwesomeIcon id='banner-star-1' icon={faStarOfLife} beatFade style={{ color: palette.white }} />
             <FontAwesomeIcon id='banner-star-2' icon={faCircle} beatFade style={{ color: palette.red }} />
@@ -41,7 +41,7 @@ function Banner() {
             <img id='earth' src={Earth} alt="Icône de la Terre" />
             <img id='shuttle' src={Shuttle} alt="Icône d'une navette spaciale" />
             <img id='astronaut' src={Astronaut} alt="Icône d'un astronaute" />
-        </div>
+        </section>
     )
 }
 

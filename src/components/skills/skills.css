@@ -42,3 +42,30 @@
     text-align: center;
     margin-top: 5vw;
 }
+
+@media screen and (max-width: 993px) {
+    #skills-container {
+        height: 172vw;
+    }
+
+    #skills-title {
+        font-size: 5vw;
+    }
+
+    #skills-content {
+        flex-direction: column-reverse;
+    }
+
+    #skills-content h3 {
+        font-size: 4vw;
+    }
+
+    #skills-cards-container {
+        width: 100%;
+    }
+
+    #skills-tools {
+        width: 90%;
+        font-size: 3vw;
+    }
+}

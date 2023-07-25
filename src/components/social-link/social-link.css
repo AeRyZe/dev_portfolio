@@ -29,3 +29,14 @@
     color: rgb(34, 34, 136);
     transition: .5s;
 }
+
+@media screen and (max-width: 993px) {
+    .social-link-container {
+        height: 6vw;
+        width: 6vw;
+    }
+
+    .social-link-icon {
+        font-size: 4vw;
+    }
+}

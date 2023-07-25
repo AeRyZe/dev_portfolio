@@ -31,3 +31,23 @@
     display: flex;
     gap: 1vw;
 }
+
+@media screen and (max-width: 993px) {
+    #about-container {
+        height: 162vw;
+    }
+
+    #about-title {
+        font-size: 5vw;
+    }
+
+    #about-content {
+        flex-direction: column;
+    }
+
+    #about-text {
+        font-size: 4vw;
+        text-align: center;
+        width: 100%;
+    }
+}

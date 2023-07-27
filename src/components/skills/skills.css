@@ -44,10 +44,6 @@
 }
 
 @media screen and (max-width: 993px) {
-    #skills-container {
-        height: 172vw;
-    }
-
     #skills-title {
         font-size: 5vw;
     }

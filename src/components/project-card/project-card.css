@@ -76,3 +76,22 @@
     background-color: white;
     transition: .5s ease-in-out;
 }
+
+@media screen and (max-width: 993px) {
+    .project-card-container {
+        height: 60vw;
+        width: 60%;
+    }
+
+    .project-card-title {
+        font-size: 4vw;
+    }
+
+    .project-card-text {
+        font-size: 3vw;
+    }
+
+    .project-card-code {
+        font-size: 3vw;
+    }
+}

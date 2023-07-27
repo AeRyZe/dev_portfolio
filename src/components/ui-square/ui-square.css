@@ -373,4 +373,60 @@
         top: 40vw;
         left: 5vw;
     }
+
+    /* CONTACT */
+
+    #mars {
+        height: 24vw;
+        top: 40vw;
+        right: 40vw;
+    }
+
+    #ufo {
+        height: 10vw;
+        top: 32vw;
+        right: 18vw;
+    }
+
+    #uranus {
+        height: 15vw;
+        top: 5vw;
+        right: 5vw;
+    }
+
+    #contact-star-1 {
+        height: 3vw;
+        top: 6vw;
+        left: 6vw;
+    }
+
+    #contact-star-2 {
+        height: 1vw;
+        top: 15vw;
+        left: 30vw;
+    }
+
+    #contact-star-3 {
+        height: 2vw;
+        top: 30vw;
+        left: 12vw;
+    }
+
+    #contact-star-4 {
+        height: 3vw;
+        top: 26vw;
+        right: 6vw;
+    }
+
+    #contact-star-5 {
+        height: 2vw;
+        top: 50vw;
+        right: 10vw;
+    }
+
+    #contact-star-6 {
+        height: 1vw;
+        top: 55vw;
+        right: 30vw;
+    }
 }

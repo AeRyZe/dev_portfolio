@@ -151,4 +151,8 @@
         width: 80vw;
         font-size: 3vw;
     }
+
+    #contact-sub {
+        height: fit-content;
+    }
 }

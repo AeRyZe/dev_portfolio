@@ -36,7 +36,7 @@ function Projects() {
                                 code={project.code}
                                 anim={index % 2 ? 'fade-left' : 'fade-right'}
                                 anchor='#projects-container'
-                                delay={`${200 * index}`}
+                                delay={`${200 * (index + 1)}`}
                             />
                         )
                     })

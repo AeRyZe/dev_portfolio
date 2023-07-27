@@ -11,6 +11,7 @@
     font-size: 3vw;
     color: white;
     text-align: center;
+    margin-bottom: 5vw;
 }
 
 #projects-content {
@@ -18,4 +19,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+@media screen and (max-width: 993px) {
+    #projects-container {
+        padding-bottom: 8vw;
+    }
+
+    #projects-title {
+        font-size: 5vw;
+        margin-bottom: 8vw;
+    }
 }

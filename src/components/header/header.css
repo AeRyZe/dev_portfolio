@@ -52,7 +52,7 @@ nav {
 @media screen and (max-width: 993px) {
     nav {
         width: 90vw;
-        height: 10vw;
+        height: 12vw;
         padding: 0 5vw;
     }
 

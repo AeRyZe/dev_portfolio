@@ -25,6 +25,7 @@ nav {
     font-size: 1.5vw;
     color: white;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .header-link:hover, .header-link:active {

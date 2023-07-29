@@ -94,4 +94,11 @@
     .project-card-code {
         font-size: 3vw;
     }
+
+    .project-card-overlay {
+        font-size: 4vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

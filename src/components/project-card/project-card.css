@@ -79,12 +79,17 @@
 
 @media screen and (max-width: 993px) {
     .project-card-container {
-        height: 60vw;
+        height: 65vw;
         width: 60%;
+        border-radius: 4vw;
     }
 
     .project-card-title {
         font-size: 4vw;
+    }
+
+    .project-card-img {
+        border-radius: 2vw;
     }
 
     .project-card-text {
@@ -93,6 +98,7 @@
 
     .project-card-code {
         font-size: 3vw;
+        border-radius: 2vw;
     }
 
     .project-card-overlay {
@@ -100,5 +106,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        border-radius: 2vw;
     }
 }

@@ -29,11 +29,11 @@ function Header() {
                     </div>
                 </div>
                 <div id={isOpen ? 'menu-open' : 'menu-close'}>
-                    <Link to='banner-container' smooth={true} onClick={toggle} className='menu-link'>Accueil</Link>
-                    <Link to='about-container' smooth={true} onClick={toggle} className='menu-link'>À propos</Link>
-                    <Link to='skills-container' smooth={true} onClick={toggle} className='menu-link'>Compétences</Link>
-                    <Link to='projects-container' smooth={true} onClick={toggle} className='menu-link'>Travaux</Link>
-                    <Link to='contact-container' smooth={true} onClick={toggle} className='menu-link'>Contact</Link>
+                    <Link to='banner-container' smooth={true} onClick={toggle} offset={(-1 * window.innerWidth) / 10} className='menu-link'>Accueil</Link>
+                    <Link to='about-container' smooth={true} onClick={toggle} offset={(-1 * window.innerWidth) / 10} className='menu-link'>À propos</Link>
+                    <Link to='skills-container' smooth={true} onClick={toggle} offset={(-1 * window.innerWidth) / 10} className='menu-link'>Compétences</Link>
+                    <Link to='projects-container' smooth={true} onClick={toggle} offset={(-1 * window.innerWidth) / 10} className='menu-link'>Travaux</Link>
+                    <Link to='contact-container' smooth={true} onClick={toggle} offset={(-1 * window.innerWidth) / 10} className='menu-link'>Contact</Link>
                 </div>
             </nav>
         </header>

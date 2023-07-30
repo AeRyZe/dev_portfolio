@@ -15,16 +15,18 @@ function Header() {
     return (
         <header>
             <nav>
-                <img src={Logo} alt='Logo de Laurent Pardo' className='header-logo' />
-                <div id='header-links'>
-                    <Link to='banner-container' smooth={true} className='header-link'>Accueil</Link>
-                    <Link to='about-container' smooth={true} className='header-link'>À propos</Link>
-                    <Link to='skills-container' smooth={true} className='header-link'>Compétences</Link>
-                    <Link to='projects-container' smooth={true} className='header-link'>Travaux</Link>
-                    <Link to='contact-container' smooth={true} className='header-link'>Contact</Link>
-                </div>
-                <div id='menu-container' onClick={toggle}>
-                    <FontAwesomeIcon id='menu-button' icon={isOpen ? faClose : faBars} />
+                <div id='header-container'>
+                    <img src={Logo} alt='Logo de Laurent Pardo' className='header-logo' />
+                    <div id='header-links'>
+                        <Link to='banner-container' smooth={true} className='header-link'>Accueil</Link>
+                        <Link to='about-container' smooth={true} className='header-link'>À propos</Link>
+                        <Link to='skills-container' smooth={true} className='header-link'>Compétences</Link>
+                        <Link to='projects-container' smooth={true} className='header-link'>Travaux</Link>
+                        <Link to='contact-container' smooth={true} className='header-link'>Contact</Link>
+                    </div>
+                    <div id='menu-container' onClick={toggle}>
+                        <FontAwesomeIcon className={isOpen ? 'icon-close' : 'icon-open'} id='menu-button' icon={isOpen ? faClose : faBars} />
+                    </div>
                 </div>
                 <div id={isOpen ? 'menu-open' : 'menu-close'}>
                     <Link to='banner-container' smooth={true} onClick={toggle} className='menu-link'>Accueil</Link>

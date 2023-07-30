@@ -26,6 +26,7 @@
         height: 25vw;
         width: 20vw;
         margin-bottom: 6vw;
+        border-radius: 3vw;
     }
 
     .skill-card-icon {

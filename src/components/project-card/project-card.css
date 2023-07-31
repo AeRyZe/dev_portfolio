@@ -1,6 +1,6 @@
 .project-card-container {
-    height: 34vw;
-    width: 28vw;
+    height: 39vw;
+    width: 33vw;
     background-color: rgb(20, 25, 140);
     border-radius: 1vw;
     display: flex;
@@ -79,8 +79,8 @@
 
 @media screen and (max-width: 993px) {
     .project-card-container {
-        height: 65vw;
-        width: 60%;
+        height: 73vw;
+        width: 65%;
         border-radius: 4vw;
     }
 

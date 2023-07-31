@@ -18,7 +18,7 @@
         "name": "Nina Carducci",
         "image": "/projects/ninacarducci.png",
         "mission": "débugger et optimiser un site de photographe (optimisation des images, optimisation de la structure du code, accroître le référencement)",
-        "pbsolution": "images trop grandes et trop lourdes → format .webp",
+        "pbsolution": "images trop grandes ou trop petites → image en plusieurs tailles ; images trop lourdes → format .webp",
         "link": "https://aeryze.github.io/nina-carducci.github.io/",
         "code": "https://github.com/AeRyZe/nina-carducci.github.io"
     },

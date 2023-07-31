@@ -12,7 +12,7 @@
 }
 
 .project-card-preview {
-    height: 45%;
+    height: 18vw;
     width: 100%;
     position: relative;
 }
@@ -37,7 +37,7 @@
     font-size: 1.5vw;
     color: white;
     text-align: center;
-    line-height: 15vw;
+    line-height: 17.5vw;
     cursor: pointer;
     text-decoration: none;
 }
@@ -79,13 +79,17 @@
 
 @media screen and (max-width: 993px) {
     .project-card-container {
-        height: 73vw;
+        height: 80vw;
         width: 65%;
         border-radius: 4vw;
     }
 
     .project-card-title {
         font-size: 4vw;
+    }
+
+    .project-card-preview {
+        height: 30vw;
     }
 
     .project-card-img {

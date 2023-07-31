@@ -11,7 +11,7 @@
         "name": "Sophie Bluel",
         "image": "/projects/sophiebluel.png",
         "mission": "créer une page web dynamique avec JavaScript ; afficher des données à l'aide d'une API",
-        "pbsolution": "afficher des données depuis API → fetch() ; afficher des données correspondants à certains critères → filter()",
+        "pbsolution": "afficher des données depuis API → utilisation de fetch ; afficher des données correspondants à certains critères → utilisation de filter",
         "code": "https://github.com/AeRyZe/SophieBluel"
     },
     {

@@ -19,11 +19,11 @@ function About() {
                 <p id='about-text' data-aos='fade-right' data-aos-anchor='#about-container' data-aos-delay='200'>
                     Jeune développeur de 23 ans, je suis passioné de codage depuis plus de 11 ans.
                     <br></br>
-                    J'ai développé des jeux vidéos sur une plateforme en ligne dénommé ROBLOX.
+                    J'ai développé des jeux vidéos sur une plateforme en ligne nommé ROBLOX.
                     <br></br>
-                    Ma passion ne faiblissant pas au fil des années, j'ai pris la décision de faire de cette passion mon métier à plein temps à travers le développement web.
+                    Ma passion ne faiblissant pas au fil des années, j'ai pris la décision de faire de cette passion mon métier à travers le développement web.
                     <br></br>
-                    C'est ainsi que j'ai décidé de suivre la formation distancielle d'Openclassrooms, formation qui nécessite de travailler en parfaite autonomie et d'être rigoureux.
+                    C'est ainsi que j'ai décidé de suivre la formation d'Openclassrooms, formation qui nécessite de travailler en parfaite autonomie et d'être rigoureux.
                     <br></br>
                     Je suis quelqu'un de créatif, curieux, flexible, communicatif, autonome et déterminé à apprendre et maîtriser de nouveaux langages/outils.
                 </p>

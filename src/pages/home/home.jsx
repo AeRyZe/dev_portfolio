@@ -24,7 +24,7 @@ function Home() {
                 left: "47.5vw"
             }, {
                 width: "40vw",
-                left: "29.65vw",
+                left: "29.85vw",
                 duration: 0.5,
                 scrollTrigger: {
                     trigger: that,

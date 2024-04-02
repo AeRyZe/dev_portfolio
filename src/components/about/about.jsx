@@ -1,5 +1,7 @@
 import './about.css'
 import { useEffect } from 'react'
+import Particles from '@tsparticles/react'
+import particlesConfig from '../tsParticles/space.json';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import UiSquare from '../ui-square/ui-square'
@@ -11,13 +13,33 @@ function About() {
     useEffect(() => {
         AOS.init();
     });
-    
+
+    const today = new Date();
+    const todayDate = today.toJSON().slice(0, 10);
+    const todayYear = todayDate.slice(0, 4);
+    const todayMonth = todayDate.slice(5, 7);
+    const todayDay = todayDate.slice(8, 10);
+
+    const bday = "2000-10-28";
+    const bdayYear = Number(bday.slice(0, 4));
+    const bdayMonth = Number(bday.slice(5, 7));
+    const bdayDay = Number(bday.slice(8, 10));
+
+    const codeDate = "2013-02-16";
+    const codeYear = Number(codeDate.slice(0, 4));
+
+    const age = todayMonth >= bdayMonth && todayDay >= bdayDay ? todayYear - bdayYear : todayYear - (bdayYear + 1);
+    const exp = (todayYear - codeYear);
+
     return (
         <section id='about-container'>
+            <Particles
+                id="tsparticles-about"
+                options={particlesConfig} />
             <h2 id='about-title' data-aos='fade-left' data-aos-anchor='#about-container'>À propos</h2>
             <div id='about-content'>
                 <p id='about-text' data-aos='fade-right' data-aos-anchor='#about-container' data-aos-delay='200'>
-                    Jeune développeur de 23 ans, je suis passioné de codage depuis plus de 11 ans.
+                    Jeune développeur de {age} ans, je suis passioné de codage depuis plus de {exp} ans.
                     <br></br>
                     J'ai développé des jeux vidéos sur une plateforme en ligne nommé ROBLOX.
                     <br></br>

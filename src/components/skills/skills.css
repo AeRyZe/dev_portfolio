@@ -30,9 +30,32 @@
     width: 50%;
 }
 
-#front-end-cards, #back-end-cards {
+#front-end-cards,
+#back-end-cards {
+    height: fit-content;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#front-slider {
     display: flex;
     justify-content: space-around;
+    gap: 4vw;
+    width: fit-content;
+    animation: scroll4 12.5s linear infinite;
+}
+
+#back-slider {
+    display: flex;
+    justify-content: space-around;
+    width: fit-content;
+    gap: 4vw;
+    animation: scroll5 10s linear infinite;
+}
+
+#front-slider:hover,
+#back-slider:hover {
+    animation-play-state: paused;
 }
 
 #skills-tools {
@@ -41,6 +64,56 @@
     color: white;
     text-align: center;
     margin-top: 5vw;
+}
+
+@keyframes scroll1 {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50.85%);
+    }
+}
+
+@keyframes scroll2 {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-51%);
+    }
+}
+
+@keyframes scroll3 {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-51.25%);
+    }
+}
+
+@keyframes scroll4 {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-51.5%);
+    }
+}
+
+@keyframes scroll5 {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-51.75%);
+    }
 }
 
 @media screen and (max-width: 993px) {
@@ -63,5 +136,13 @@
     #skills-tools {
         width: 90%;
         font-size: 3vw;
+    }
+
+    #front-slider {
+        animation: scroll1 12.5s linear infinite;
+    }
+
+    #back-slider {
+        animation: scroll2 10s linear infinite;
     }
 }

@@ -5,6 +5,7 @@
     padding: 4vw 10vw 4vw 10vw;
     overflow: hidden;
     position: relative;
+    z-index: 5;
 }
 
 h1 {
@@ -178,6 +179,7 @@ h1 {
         -webkit-transform: translate(0, 0) rotate(120deg);
         transform: translate(0, 0) rotate(120deg);
     }
+
     50% {
         -webkit-transform: translate(0, 2vw) rotate(120deg);
         transform: translate(0, 2vw) rotate(120deg);

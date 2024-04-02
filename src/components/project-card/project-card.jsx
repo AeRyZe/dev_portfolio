@@ -15,8 +15,6 @@ function ProjectCard(props) {
                 <img className='project-card-img' src={props.image} alt='Aperçu du site web'></img>
                 {props.link ? <a className='project-card-overlay' target='_blank' rel='noreferrer' href={props.link}>Voir le site web</a> : null}
             </div>
-            <p className='project-card-text'><strong>Mission(s) :</strong> {props.text}</p>
-            <p className='project-card-text'><strong>Problèmatique(s) & solution(s) :</strong> {props.text2}</p>
             <a className='project-card-code' target='_blank' rel='noreferrer' href={props.code}>Voir le code source</a>
         </div>
     )

@@ -32,8 +32,6 @@ function Projects() {
                                 title={project.name}
                                 image={project.image}
                                 link={project.link}
-                                text={project.mission}
-                                text2={project.pbsolution}
                                 code={project.code}
                                 anim={index % 2 ? 'fade-left' : 'fade-right'}
                                 anchor='#projects-container'

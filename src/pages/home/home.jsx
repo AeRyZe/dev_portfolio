@@ -13,11 +13,12 @@ import Projects from '../../components/projects/projects';
 import Contact from '../../components/contact/contact';
 
 gsap.registerPlugin(ScrollTrigger);
+//ScrollTrigger.normalizeScroll(true);
 
 function Home() {
     useEffect(() => {
         // GSAP
-        let separators = document.querySelectorAll('.separator');
+        const separators = gsap.utils.toArray(".separator");
         separators.forEach((that) => {
             gsap.fromTo(that, {
                 width: 0,

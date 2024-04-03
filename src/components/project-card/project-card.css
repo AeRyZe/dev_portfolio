@@ -82,6 +82,7 @@
         height: 52vw;
         width: 65%;
         border-radius: 4vw;
+        justify-content: space-evenly;
     }
 
     .project-card-title {
@@ -90,6 +91,7 @@
 
     .project-card-preview {
         height: 30vw;
+        width: 55vw;
     }
 
     .project-card-img {

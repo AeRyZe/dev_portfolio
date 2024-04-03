@@ -18,6 +18,10 @@ gsap.registerPlugin(ScrollTrigger);
 function Home() {
     useEffect(() => {
         // GSAP
+        setTimeout(() => { //permet de revérifier les ScrollTrigger une fois le DOM chargé (pour bug mobile)
+            ScrollTrigger.refresh();
+        }, 1000);
+
         const separators = gsap.utils.toArray(".separator");
         separators.forEach((that) => {
             gsap.fromTo(that, {
@@ -30,7 +34,8 @@ function Home() {
                 scrollTrigger: {
                     trigger: that,
                     start: "bottom bottom",
-                    toggleActions: "play none none reverse"
+                    end: "bottom center",
+                    toggleActions: "play pause none reverse",
                 }
             });
         });
@@ -50,16 +55,14 @@ function Home() {
 
     return (
         <main>
-            <React.StrictMode>
-                <Banner />
-                <About />
-                <div className='separator'></div>
-                <Skills />
-                <div className='separator'></div>
-                <Projects />
-                <div className='separator'></div>
-                <Contact />
-            </React.StrictMode>
+            <Banner />
+            <About />
+            <div className='separator'></div>
+            <Skills />
+            <div className='separator'></div>
+            <Projects />
+            <div className='separator'></div>
+            <Contact />
         </main>
     )
 }

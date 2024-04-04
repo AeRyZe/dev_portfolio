@@ -35,7 +35,7 @@ function Home() {
                     trigger: that,
                     start: "bottom bottom",
                     end: "bottom center",
-                    toggleActions: "play pause none reverse",
+                    toggleActions: "play none none reverse",
                 }
             });
         });

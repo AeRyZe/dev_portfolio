@@ -44,7 +44,7 @@ function Contact() {
                 <div id='contact-sub'>
                     <UiSquare id='3' anim='fade-left' anchor='#contact-container' delay='400' />
                     <p id='contact-mailto' data-aos='fade-up' data-aos-anchor='#contact-container' data-aos-delay='600'>
-                        Si vous rencontrez un quelconque problème avec ce formulaire, ou que vous préferez me joindre via votre messagerie, cliquez sur ce <a href='mailto:laurent.pardo.dev@gmail.com'>lien</a>
+                        Si vous rencontrez un quelconque problème avec ce formulaire, ou que vous préferez me joindre via votre messagerie, cliquez sur ce <a href='mailto:contact@laurentpardo.fr'>lien</a>
                     </p>
                 </div>
             </div>

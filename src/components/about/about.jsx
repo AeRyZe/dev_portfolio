@@ -41,9 +41,9 @@ function About() {
                 <p id='about-text' data-aos='fade-right' data-aos-anchor='#about-container' data-aos-delay='200'>
                     Jeune développeur de {age} ans, je suis passioné de codage depuis plus de {exp} ans.
                     <br></br>
-                    J'ai développé des jeux vidéos sur une plateforme en ligne nommé ROBLOX.
+                    J'ai développé des jeux vidéos sur une plateforme en ligne nommée ROBLOX.
                     <br></br>
-                    Ma passion ne faiblissant pas au fil des années, j'ai pris la décision de faire de cette passion mon métier à travers le développement web.
+                    Ma passion ne s'affaiblissant pas au fil des années, j'ai pris la décision de faire de cette passion mon métier à travers le développement web.
                     <br></br>
                     C'est ainsi que j'ai décidé de suivre la formation d'Openclassrooms, formation qui nécessite de travailler en parfaite autonomie et d'être rigoureux.
                     <br></br>
@@ -54,7 +54,7 @@ function About() {
             <div id='about-links-container'>
                 <SocialLink icon={faGithub} link='https://github.com/AeRyZe' anim='fade-up' anchor='#about-container' delay='600' />
                 <SocialLink icon={faLinkedin} link='https://www.linkedin.com/in/laurent-pardo-4675ba246/' anim='fade-up' anchor='#about-container' delay='600' />
-                <SocialLink icon={faEnvelope} link='mailto:laurent.pardo.dev@gmail.com' anim='fade-up' anchor='#about-container' delay='800' />
+                <SocialLink icon={faEnvelope} link='mailto:contact@laurentpardo.fr' anim='fade-up' anchor='#about-container' delay='800' />
             </div>
         </section>
     )

@@ -9,7 +9,7 @@ function Footer() {
             <div id='footer-links-container'>
                 <SocialLink icon={faGithub} link='https://github.com/AeRyZe' />
                 <SocialLink icon={faLinkedin} link='https://www.linkedin.com/in/laurent-pardo-4675ba246/' />
-                <SocialLink icon={faEnvelope} link='mailto:laurent.pardo.dev@gmail.com' />
+                <SocialLink icon={faEnvelope} link='mailto:contact@laurentpardo.fr' />
             </div>
             <p>Site web réalisé à la main par Laurent Pardo</p>
         </footer>
